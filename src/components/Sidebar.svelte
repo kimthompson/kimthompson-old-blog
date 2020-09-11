@@ -1,5 +1,7 @@
 <script>
 import Nav from '../components/Nav.svelte'
+import Icon from 'svelte-awesome';
+import { github, twitter, youtube, twitch, codepen, linkedin } from 'svelte-awesome/icons';
 
 export let segment
 </script>
@@ -106,6 +108,15 @@ p {
   <div class="title">
     <h1>Kim Thompson</h1>
     <p>Web Developer</p>
+  </div>
+
+  <div class="social">
+    <Icon data={github} />    
+    <Icon data={linkedin} />    
+    <Icon data={youtube} />    
+    <Icon data={twitch} />    
+    <Icon data={twitter} />    
+    <Icon data={codepen} />    
   </div>
 
   <div class="nav">

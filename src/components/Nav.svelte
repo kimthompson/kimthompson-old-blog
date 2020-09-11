@@ -16,6 +16,7 @@
     padding: 4px;
     display: block;
     position: relative;
+    max-width: 8em;
   }
 
   a:not(.selected) {

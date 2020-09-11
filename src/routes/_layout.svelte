@@ -12,7 +12,7 @@ export let segment;
   min-height: 100vh;
 }
 
-.home {
+.layout_main {
   display: flex;
 }
 
@@ -30,6 +30,7 @@ main {
 
 footer {
   color: #aaa;
+  background-color: #090809;
   font-size: 1em;
   font-family: 'Cabin Sketch', sans-serif;
   padding: 1em 2em;
@@ -38,27 +39,25 @@ footer {
 }
 
 @media(max-width: 1020px) {
-  .home {
+  .layout_main {
     flex-direction: column;
   }
 }
 </style>
 
 <div class="layout">
-  <div class="home">
+  <div class="layout_main">
     <Sidebar {segment}/>
 
-    <div class="main">
-      <main>
-	<slot></slot>
-      </main>
-      <footer>
-	<span>
-	  &copy; {new Date().getFullYear()} Kim Thompson.
-	  Powered by <a href="https://sapper.svelte.dev" target="_blank">Sapper</a>.
-	  Template by <a href="https://www.twitter.com/Charca" target="_blank">Maxi Ferreira</a>.
-	</span>
-      </footer>
-    </div>
+    <main>
+      <slot></slot>
+    </main>
   </div>
+  <footer>
+    <span>
+      &copy; {new Date().getFullYear()} Kim Thompson.
+      Powered by <a href="https://sapper.svelte.dev" target="_blank">Sapper</a>.
+      Template by <a href="https://www.twitter.com/Charca" target="_blank">Maxi Ferreira</a>.
+    </span>
+  </footer>
 </div>

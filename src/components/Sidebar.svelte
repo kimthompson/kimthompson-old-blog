@@ -48,6 +48,11 @@ figcaption {
 h1 {
   font-size: 48px;
   min-height: 70px;
+  margin: 0;
+}
+
+p {
+  margin: 0;
 }
 
 .sidebar {
@@ -56,7 +61,11 @@ h1 {
   align-items: center;
   width: 300px;
   text-align: center;
-  background-color: #757780;
+  background-color: #D2CCA1;
+}
+
+.nav {
+  margin-top: 30px;
 }
 
 @media(max-width: 1020px) {
@@ -68,7 +77,7 @@ h1 {
     flex-direction: row;
     width: 100%;
     border: none;
-    padding: 10px;
+    padding: 10px 10px 10px 25px;
   }
 
   .title {
@@ -83,13 +92,6 @@ h1 {
   .nav {
     order: -1;
     flex: 2;
-  }
-
-  h1 {
-    margin: 0;
-  }
-
-  p {
     margin: 0;
   }
 }

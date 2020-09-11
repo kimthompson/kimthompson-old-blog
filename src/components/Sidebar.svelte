@@ -10,6 +10,7 @@ img {
   -webkit-animation: wobble 3s linear infinite;
   -moz-animation: wobble 3s linear infinite;
   animation: wobble 3s linear infinite;
+  padding-top: 10px;
 }
 
 @-moz-keyframes wobble {
@@ -46,7 +47,7 @@ figcaption {
 
 h1 {
   font-size: 48px;
-  height: 70px;
+  min-height: 70px;
 }
 
 .sidebar {
@@ -54,18 +55,34 @@ h1 {
   flex-direction: column;
   align-items: center;
   width: 300px;
-  border-right: 1px solid #aaa;
   text-align: center;
+  background-color: #757780;
 }
 
 @media(max-width: 1020px) {
+  img {
+    padding: 0;
+  }
+
   .sidebar {
+    flex-direction: row;
     width: 100%;
     border: none;
+    padding: 10px;
   }
 
   .title {
+    flex: 4;
+  }
+
+  figure {
+    flex: 2;
+    order: 5;
+  }
+
+  .nav {
     order: -1;
+    flex: 2;
   }
 
   h1 {
@@ -89,5 +106,7 @@ h1 {
     <p>Web Developer</p>
   </div>
 
-  <Nav {segment}/>
+  <div class="nav">
+    <Nav {segment}/>
+  </div>
 </aside>

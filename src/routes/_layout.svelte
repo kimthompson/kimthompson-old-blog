@@ -35,7 +35,6 @@ footer {
   padding: 1em 2em;
   text-align: center;
   width: 100%;
-  border-top: 1px solid #aaa;
 }
 
 @media(max-width: 1020px) {
@@ -49,16 +48,17 @@ footer {
   <div class="home">
     <Sidebar {segment}/>
 
-    <main>
-      <slot></slot>
-    </main>
+    <div class="main">
+      <main>
+	<slot></slot>
+      </main>
+      <footer>
+	<span>
+	  &copy; {new Date().getFullYear()} Kim Thompson.
+	  Powered by <a href="https://sapper.svelte.dev" target="_blank">Sapper</a>.
+	  Template by <a href="https://www.twitter.com/Charca" target="_blank">Maxi Ferreira</a>.
+	</span>
+      </footer>
+    </div>
   </div>
-
-  <footer>
-    <span>
-      &copy; {new Date().getFullYear()} Kim Thompson.
-      Powered by <a href="https://sapper.svelte.dev" target="_blank">Sapper</a>.
-      Template by <a href="https://www.twitter.com/Charca" target="_blank">Maxi Ferreira</a>.
-    </span>
-  </footer>
 </div>

@@ -7,7 +7,7 @@ body {
   font-family: 'Neucha', serif;
   font-size: 16px;
   line-height: 1.6;
-  color: #36393b;
+  color: black;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -163,7 +163,7 @@ td {
 
 .container {
   margin: 0 auto;
-  max-width: 42em;
+  max-width: 50em;
   width: 100%;
 }
 

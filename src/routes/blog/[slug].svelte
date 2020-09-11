@@ -14,7 +14,7 @@
 </script>
 
 <script>
-  import Bio from '../../components/Bio.svelte'
+  /*import Bio from '../../components/Bio.svelte'*/
   export let post
 </script>
 
@@ -28,9 +28,9 @@
   }
 
   header p {
-    color: #AAA;
+    color: #aaa;
     text-transform: uppercase;
-    font-family: Rubik, sans-serif;
+    font-family: 'Cabin Sketch', sans-serif;
     font-weight: 600;
   }
 
@@ -54,5 +54,4 @@
     {@html post.html}
   </article>
   <hr />
-  <Bio />
 </div>

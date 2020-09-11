@@ -4,22 +4,18 @@
 
 <style>
   nav {
-    align-items: flex-end;
     display: flex;
+    flex-direction: column;
     flex: 1;
-    font-family: Rubik, sans-serif;
-    font-weight: 700;
-    justify-content: flex-end;
     text-transform: uppercase;
   }
 
   a {
     color: inherit;
     text-decoration: none;
-    padding: 10px 5px;
+    padding: 4px;
     display: block;
     position: relative;
-    margin-left: 20px;
   }
 
   a:not(.selected) {
@@ -34,7 +30,7 @@
     bottom: 0;
     width: 100%;
     height: 2px;
-    background: #AAA;
+    background: #aaa;
     transform: scaleX(0);
   }
 
@@ -49,7 +45,7 @@
 </style>
 
 <nav>
-  <a class='{segment === undefined ? "selected" : ""}' href='.'>home</a>
+  <a rel=prefetch class='{segment === undefined ? "selected" : ""}' href='.'>home</a>
   <a class='{segment === "about" ? "selected" : ""}' href='about'>about</a>
-  <a rel=prefetch class='{segment === "blog" ? "selected" : ""}' href='blog'>blog</a>
+  <a class='{segment === "portfolio" ? "selected" : ""}' href='portfolio'>portfolio</a>
 </nav>

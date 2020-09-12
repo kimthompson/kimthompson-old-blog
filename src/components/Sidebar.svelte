@@ -1,7 +1,7 @@
 <script>
 import Nav from '../components/Nav.svelte'
 import Icon from 'svelte-awesome';
-import { github, twitter, youtube, twitch, codepen, linkedin } from 'svelte-awesome/icons';
+import { github, twitter, youtube, twitch, linkedin } from 'svelte-awesome/icons';
 
 export let segment
 </script>
@@ -68,6 +68,22 @@ p {
 
 .nav {
   margin-top: 30px;
+  margin-bottom: 100px;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social {
+  margin-top: 10px;
+  display: flex;
+}
+
+.icon {
+  padding: 0 5px;
 }
 
 @media(max-width: 1020px) {
@@ -105,18 +121,19 @@ p {
     <figcaption>Art by <a href="https://www.instagram.com/lady_red_art/" target="_blank">@lady_red_art</a> on Instagram</figcaption>
   </figure>
 
-  <div class="title">
-    <h1>Kim Thompson</h1>
-    <p>Web Developer</p>
-  </div>
+  <div class="center">
+    <div class="title">
+      <h1>Kim Thompson</h1>
+      <p>Web Developer</p>
+    </div>
 
-  <div class="social">
-    <Icon data={github} />    
-    <Icon data={linkedin} />    
-    <Icon data={youtube} />    
-    <Icon data={twitch} />    
-    <Icon data={twitter} />    
-    <Icon data={codepen} />    
+    <div class="social">
+      <a href="https://github.com/kimthompson" class="icon"><Icon data={github} scale="1.5" /></a>
+      <a href="https://www.linkedin.com/in/kimberlyannthompson/" class="icon"><Icon data={linkedin} scale="1.5" /></a>
+      <a href="https://www.youtube.com/channel/UCfXT3usekugleJdBo2LIjig" class="icon"><Icon data={youtube} scale="1.5" /></a>
+      <a href="https://www.twitch.tv/kimicalburn" class="icon"><Icon data={twitch} scale="1.5" /></a>
+      <a href="https://twitter.com/byKimThompson" class="icon"><Icon data={twitter} scale="1.5" /></a>
+    </div>
   </div>
 
   <div class="nav">

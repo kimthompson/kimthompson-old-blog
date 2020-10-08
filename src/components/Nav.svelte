@@ -47,6 +47,6 @@
 
 <nav>
   <a rel=prefetch class='{segment === undefined ? "selected" : ""}' href='.'>home</a>
-  <a class='{segment === "about" ? "selected" : ""}' href='about'>about</a>
   <a class='{segment === "portfolio" ? "selected" : ""}' href='portfolio'>portfolio</a>
+  <a class='{segment === "resume" ? "selected" : ""}' href='resume'>resume</a>
 </nav>

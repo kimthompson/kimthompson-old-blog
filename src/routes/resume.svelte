@@ -18,7 +18,7 @@
 </style>
 
 <svelte:head>
-  <title>About</title>
+  <title>Resume</title>
 </svelte:head>
 
 <div class="container">

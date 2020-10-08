@@ -4,14 +4,14 @@
 
 body {
   margin: 0;
-  font-family: 'Neucha', serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1.6;
   color: #090809;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Cabin Sketch', sans-serif;
+  font-family: 'Special Elite', serif;
   font-weight: 700;
   line-height: 1.2;
   margin: 0 0 0.5em 0;
@@ -147,7 +147,7 @@ figure {
 
 table {
   border-collapse: collapse;
-  font-family: 'Neucha', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1.125em;
   margin: 2em 0;
 }

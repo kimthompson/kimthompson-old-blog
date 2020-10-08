@@ -13,7 +13,7 @@ export let posts;
 <style>
 h2,
 .post-item-footer {
-  font-family: 'Cabin Sketch', sans-serif;
+  font-family: 'Special Elite', serif;
   font-weight: 700;
 }
 

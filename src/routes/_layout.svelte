@@ -32,7 +32,7 @@ footer {
   color: #aaa;
   background-color: #090809;
   font-size: 1em;
-  font-family: 'Cabin Sketch', sans-serif;
+  font-family: 'Special Elite', serif;
   padding: 1em 2em;
   text-align: center;
   width: 100%;

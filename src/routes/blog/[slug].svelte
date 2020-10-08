@@ -30,7 +30,7 @@
   header p {
     color: #aaa;
     text-transform: uppercase;
-    font-family: 'Cabin Sketch', sans-serif;
+    font-family: 'Special Elite', serif;
     font-weight: 600;
   }
 

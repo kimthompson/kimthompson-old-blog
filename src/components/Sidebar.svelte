@@ -9,36 +9,51 @@ export let segment
 <style>
 img {
   height: 200px;
-  -webkit-animation: wobble 3s linear infinite;
-  -moz-animation: wobble 3s linear infinite;
-  animation: wobble 3s linear infinite;
   padding-top: 10px;
 }
 
+img:hover {
+  -webkit-animation: wobble .25s linear;
+  -moz-animation: wobble .25s linear;
+  animation: wobble .25s linear;
+}
+
 @-moz-keyframes wobble {
-  0% { -moz-transform: rotate(20deg); }
-  50% { -moz-transform: rotate(-10deg); }
-  100% { -moz-transform: rotate(20deg); }
+  0% { -moz-transform: rotate(3deg); }
+  25% { -moz-transform: rotate(-3deg); }
+  50% { -moz-transform: rotate(3deg); }
+  75% { -moz-transform: rotate(-3deg); }
+  100% { -moz-transform: rotate(3deg); }
 }
 
 @-webkit-keyframes wobble {
-  0% { -webkit-transform: rotate(20deg); }
-  50% { -webkit-transform: rotate(-10deg); }
-  100% { -webkit-transform: rotate(20deg); }
+  0% { -webkit-transform: rotate(3deg); }
+  25% { -webkit-transform: rotate(-3deg); }
+  50% { -webkit-transform: rotate(3deg); }
+  75% { -webkit-transform: rotate(-3deg); }
+  100% { -webkit-transform: rotate(3deg); }
 }
 
 @keyframes wobble {
   0% {
-    -webkit-transform: rotate(20deg);
-    transform: rotate(20);
+    -webkit-transform: rotate(3deg);
+    transform: rotate(3);
+  }
+  25% {
+    -webkit-transform: rotate(-3deg);
+    transform: rotate(-3);
   }
   50% {
-    -webkit-transform: rotate(-10deg);
-    transform: rotate(-10);
+    -webkit-transform: rotate(3deg);
+    transform: rotate(3);
+  }
+  75% {
+    -webkit-transform: rotate(-3deg);
+    transform: rotate(-3);
   }
   100% {
-    -webkit-transform: rotate(20deg);
-    transform: rotate(20);
+    -webkit-transform: rotate(3deg);
+    transform: rotate(3);
   }
 }
 
@@ -116,10 +131,12 @@ p {
 </style>
 
 <aside class="sidebar">
-  <figure>
-    <img alt='Me, being grumpy and getting caffeine' src='grump.png'>
-    <figcaption>Art by <a href="https://www.instagram.com/lady_red_art/" target="_blank">@lady_red_art</a> on Instagram</figcaption>
-  </figure>
+    <figure>
+      <a href="/">
+        <img alt='Me, being grumpy and getting caffeine' src='grump.png'>
+      </a>
+      <figcaption>Art by <a href="https://www.instagram.com/lady_red_art/" target="_blank">@lady_red_art</a></figcaption>
+    </figure>
 
   <div class="center">
     <div class="title">

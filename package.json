@@ -1,7 +1,8 @@
 {
     "name": "kimthompson.me",
-    "description": "Personal website and blog",
-    "version": "0.0.1",
+    "license": "LicenseRef-UNLICENSE",
+    "description": "Kim Thompson's personal blog and website",
+    "version": "0.0.2",
     "scripts": {
         "dev": "sapper dev",
         "build": "sapper build",

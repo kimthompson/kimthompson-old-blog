@@ -8,6 +8,7 @@
     flex-direction: column;
     flex: 1;
     text-transform: uppercase;
+    font-family: 'Special Elite', serif;
   }
 
   a {

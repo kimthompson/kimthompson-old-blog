@@ -1,21 +1,30 @@
-# sapper-blog-template
+# kimthompson.me
 
-A starter template for building markdown-powered blogs with [Sapper](https://github.com/sveltejs/sapper) and [Svelte](https://github.com/sveltejs/svelte).
+The website and blog for Kim Thompson, React developer by day and Svelte afficionado by night.
 
-### 👉 [Demo](https://sapper-blog-template.netlify.com/)
+## Installation
 
-## ✨ Getting started
+Once you pull down this repo and install the packages with `npm i`, about the only command you should need is
 
-```bash
-npx degit Charca/sapper-blog-template my-blog
-cd my-blog
-npm install # or yarn!
-npm run dev
-```
+`npm run dev`
 
-Open up [localhost:3000](http://localhost:3000) and start clicking around.
+This will run a development version of the site with HMR at http://localhost:3000. If you're curious about other commands or the rollup settings used here, you can check out the `package.json` and `rollup.config.js` files.
 
-Consult [sapper.svelte.dev](https://sapper.svelte.dev) for help getting started.
+## How I Deploy
+
+First, create an account with [https://vercel.com](Vercel) and install the Vercel package globally.
+
+`npm i -g vercel`
+
+Then use this nice little tool to automatically generate the `vercel.json` configuration you'll need for Sapper.
+
+`npx vercel-sapper`
+
+Finally, run the command `vercel` and follow the prompts. Log in and verify your email if it asks you to. You can then also set up this site to build and deploy automatically in Vercel every time you push to the master branch.
+
+## Credits
+
+I got this blog template from [Maxi Ferreira](https://www.twitter.com/Charca), and you can find it [here](https://github.com/Charca/sapper-blog-template)
 
 ## 🏗 Structure
 
@@ -41,12 +50,3 @@ This is where your markdown posts live in. All `.md` files in this directory are
 
 Sapper is in early development, and may have the odd rough edge here and there. Please be vocal over on the [Sapper issue tracker](https://github.com/sveltejs/sapper/issues).
 
-## To deploy to vercel
-
-`npm i -g vercel`
-
-`npx vercel-sapper`
-
-`vercel`
-
-Follow the prompts and log in if you have to.

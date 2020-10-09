@@ -38,6 +38,10 @@
     min-width: 100px;
     width: 30%;
   }
+
+  .container {
+    padding: 2em;
+  }
 </style>
 
 <svelte:head>

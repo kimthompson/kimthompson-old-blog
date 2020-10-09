@@ -2,8 +2,20 @@
   import marked from 'marked';
   import Icon from 'svelte-awesome';
   import { faNpm } from '@fortawesome/free-brands-svg-icons';
-  import { faMobileAlt, faBaby, faMicrophoneAlt, faPodcast, faVial, faCubes, faDatabase, faVoteYea, faBroadcastTower, faGuitar } from '@fortawesome/free-solid-svg-icons';
-  import { faFileImage } from '@fortawesome/free-regular-svg-icons';
+  import {
+    faMobileAlt,
+    faBaby,
+    faMicrophoneAlt,
+    faPodcast,
+    faVial,
+    faCubes,
+    faDatabase,
+    faVoteYea,
+    faBroadcastTower,
+    faGuitar,
+    faCaretDown
+  } from '@fortawesome/free-solid-svg-icons';
+  import { faFileImage, faComment } from '@fortawesome/free-regular-svg-icons';
 
   let projects = [
     {
@@ -11,7 +23,7 @@
       description: 'Our next two projects will be developed for Next.js, iOS and Android at the same time using React Native. These are the first projects at MPR to use TypeScript, which has made our code more rigorous.',
       myRole: 'I created the proof of concept, showing that apps created in React Native with Expo could do all of the things we would need an audio-heavy web app to do. I got everyone on board and excited about it.', 
       icon: faMobileAlt,
-      link: '',
+      link: null,
       isWip: true
     },
     {
@@ -121,19 +133,47 @@
 
   .file {
     background-color: var(--sage-color);
-    padding: 0 10px;
-    border: 1px solid var(--rich-black-color);
-    margin: 5px 0;
   }
 
   .file_tab {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     font-size: 1.3em;
+    background-color: var(--main-theme-color);
+    padding: 25px 10px 20px;
+    margin: 0;
+  }
+
+  .file_description {
+    margin: 0 10px;
+  }
+
+  .file_me {
+    padding: 0 5px;
+    display: flex;
+    align-items: center;
+  }
+
+  .file_me p {
+    font-style: italic;
+    flex-grow: 5;
+    margin: 0 50px 0 25px;
   }
 
   .file_icon {
-    margin-left: 15px;
+    flex-grow: 3;
+    min-width: 100px;
+  }
+
+  @media(max-width: 500px) {
+    .file_icon {
+      display: none;
+    }
+
+    .file_me p {
+      margin: 0 25px;
+    }
   }
 </style>
 
@@ -141,23 +181,26 @@
   <title>Projects</title>
 </svelte:head>
 
-<div class="container">
+<div>
   <h1 class="title">Projects</h1>
 
   {#each projects as project, index}
     <div class="file">
-      <a href={project.href}>
         <h2 class="file_tab">
           {project.name}
-          {#if project.icon !== null}
-            <i class="file_icon">
-              <Icon data={project.icon} scale="2"/>
-            </i>
-          {/if}
+          <Icon data={faCaretDown} scale="2" />
         </h2>
-        <p>{@html marked(project.description)}</p>
-        <p>{@html marked(project.myRole)}</p>
-      </a>
+        <p class="file_description">{@html marked(project.description)}</p>
+        <div class="file_me">
+          <p>{@html marked(project.myRole)}</p>
+          <a href={project.link !== null ? project.link : ''}>
+            {#if project.icon !== null}
+              <div class="file_icon">
+                <Icon data={project.icon} scale="3" />
+              </div>
+            {/if}
+          </a>
+        </div>
     </div>
   {/each}
 </div>

@@ -29,8 +29,8 @@ main {
 }
 
 footer {
-  color: #aaa;
-  background-color: #090809;
+  color: var(--off-white-color);
+  background-color: var(--footer-color);
   font-size: 1em;
   font-family: 'Special Elite', serif;
   padding: 1em 2em;

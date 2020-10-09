@@ -33,7 +33,7 @@ Soon I'll build out the Resume and Porfolio sections, where I'll showcase the pr
 
 ## What will I blog about?
 
-I'll mostly keep it about tech, but I'll probably touch on my hobbies and politics at some point. I'm a lefty millennial and I have Opinions.
+I'll mostly keep it about tech, but I'll probably touch on my hobbies and politics at some point. I'm a leftist millennial and I have Opinions.
 
 ## Cats?
 

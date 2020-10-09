@@ -18,7 +18,7 @@ h2,
 }
 
 .post-item-date {
-  color: #aaa;
+  color: var(--main-theme-color);
   text-align: left;
   text-transform: uppercase;
   margin-right: 16px;

@@ -78,7 +78,7 @@ p {
   align-items: center;
   width: 300px;
   text-align: center;
-  background-color: #D2CCA1;
+  background-color: var(--sidebar-color);
 }
 
 .nav {
@@ -111,6 +111,7 @@ p {
     width: 100%;
     border: none;
     padding: 10px 10px 10px 25px;
+    margin-bottom: 15px;
   }
 
   .title {

@@ -14,7 +14,7 @@
   a {
     color: inherit;
     text-decoration: none;
-    padding: 4px;
+    padding: 9px 0 0 0;
     display: block;
     position: relative;
     max-width: 8em;
@@ -32,7 +32,7 @@
     bottom: 0;
     width: 100%;
     height: 2px;
-    background: #aaa;
+    background: var(--grey-color);
     transform: scaleX(0);
   }
 
@@ -42,12 +42,12 @@
   }
 
   .selected::before {
-    background: #fd6378;
+    background: var(--main-theme-color);
   }
 </style>
 
 <nav>
   <a rel=prefetch class='{segment === undefined ? "selected" : ""}' href='.'>home</a>
-  <a class='{segment === "portfolio" ? "selected" : ""}' href='portfolio'>portfolio</a>
+  <a class='{segment === "projects" ? "selected" : ""}' href='projects'>projects</a>
   <a class='{segment === "resume" ? "selected" : ""}' href='resume'>resume</a>
 </nav>

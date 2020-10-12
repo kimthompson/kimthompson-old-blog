@@ -40,7 +40,7 @@ footer {
 @media(max-width: 1020px) {
   .layout_main {
     flex-direction: column;
-    padding: 1em 0;
+    padding: 0 0 1em 0;
   }
 }
 </style>

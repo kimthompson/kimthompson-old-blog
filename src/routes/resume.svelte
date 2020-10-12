@@ -120,7 +120,7 @@ header a:hover {
     <div>
       <h1>Kim Thompson</h1>
       <h2>Software Developer</h2>
-      <p>Software Developer with over 5 years of experience creating applications for web, mobile and Windows. A jack-of-all-trades who is passionate about pushing the web forward and making it better for everyone.</p>
+      <p>Software developer with over 5 years of experience creating applications for web, mobile and Windows. A jack-of-all-trades who is passionate about pushing the web forward and making it better for everyone.</p>
     </div>
     <div class="contact">
       <span>135 Battle Creek Place, Saint Paul, MN 55119</span>
@@ -147,27 +147,33 @@ header a:hover {
       <div class="job">
         <h4>Web Developer <span class="company">/ Minnesota Public Radio, Saint Paul, MN</span></h4>
         <h5>August 2018 - Present</h5>
-        <p>Maintain American Public Media's old web applications and build new ones, using everything from server side Node and Rails to front end React and SCSS. Built swaths of our reusable React component libraries and pushed for them to be open sourced and published on NPM. Over time became the "crash test dummy" of the team, vetting new tools like Next.js and React Native and architecting initial solutions with them.</p>
+        <p>Maintain American Public Media's old web applications and build new ones, using everything from server side Node and Rails to front end React and SCSS. Built swaths of our reusable React component libraries and pushed for them to be open sourced and published on NPM. Became the "crash test dummy" of the team, vetting new tools like Next.js and React Native and architecting initial solutions with them.</p>
         <h6 class="key">Key Accomplishments</h6>
         <ul>
           <li>Reworked APM Reports to pass all of Google's AMP rules so they would more frequently be the top result for the stories they broke. The day Curtis Flowers' conviction was overturned APM Reports had a record 175K pageviews.</li>
-          <li>Leveraged my journalism/dataviz background to work with the newsroom to revamp our election maps and charts for the 2018 election and the 2020 primaries.</li>
-          <li>Proposed we move to Next.js when we had difficulty getting React and SSR to play nicely. Created a demo that convinced my boss and team that this would be more stable in the long run. All of our new development since has used Next.js.</li>
+          <li>Proposed we move to Next.js when we had difficulty getting React and SSR to play nicely. Created a demo that convinced my boss and team that this would be more stable in the long run. Now all of our new development uses Next.js.</li>
+          <li>Leveraged my journalism/dataviz background to work with the newsroom to revamp our election site. Created new maps and charts for the 2018 and 2020 elections.</li>
         </ul>
       </div>
       <div class="job">
         <h4>Associate Software Developer <span class="company">/ Design Center Inc., Saint Paul, MN</span></h4>
         <h5>February 2017 - August 2018</h5>
-        <p>Developed applications for iOS, web and Windows. Some of these were large agile projects with a team of developers while others were small and left to me. Managed client and project manager expectations, sometimes helping them find solutions they did not think to ask for. Hired as the web expert but had to quickly get up to speed on mobile as most of those projects fell through.</p>
+        <p>Developed applications for iOS, web and Windows. Some of these were large agile projects with a team of developers while others were small solo projects. Managed client and project manager expectations, sometimes helping them find solutions they did not think to ask for.</p>
         <h6 class="key">Key Accomplishments</h6>
         <ul>
-          <li>Wrote the company's front end web standards. Attempted to teach the designers how to write solid HTML and CSS markup, as well as how to use VS Code. Stressed to the owner that markup and Javascript development is true software development that should not be offloaded onto designers who aren't interested in coding.</li>
+          <li>Wrote the company's front end web standards. Attempted to teach the designers how to write solid HTML and CSS markup, as well as how to use VS Code. Stressed to the owner that markup and Javascript development is true software development that cannot be offloaded onto designers.</li>
         </ul>
       </div>
       <div class="job">
         <h4>Technology LDP Trainee <span class="company">/ Ameriprise Financial, Saint Paul, MN</span></h4>
         <h6>July 2015 - February 2017</h6>
-        <p>Rotated between three different position over the course of 18 months as part of a program for recent graduates. Redesigned and wrote the front end for Ameriprise's advisor compensation application homepage, working within the limits of an old JSP, IE-only application. Tested and polished a client-facing dashboard built with Backbone.js. Conducted working sessions to complete disaster recovery plans for all of my department's applications.</p>
+        <p>Rotated between three different position over the course of 18 months as part of a program for recent graduates.</p>
+        <h6 class="key">Key Accomplishments</h6>
+        <ul>
+          <li>Redesigned and wrote the front end for Ameriprise's advisor compensation application homepage, working within the limits of an old JSP, IE-only application.</li>
+          <li>Tested and polished a client-facing dashboard built with Backbone.js.</li>
+          <li>Conducted working sessions to complete disaster recovery plans for all of my department's applications.</li>
+        </ul>
       </div>
       <div class="job">
         <h4>Product Strategy / Design Intern <span class="company">/ Pearson VUE, Bloomington, MN</span></h4>

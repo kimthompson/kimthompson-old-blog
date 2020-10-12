@@ -147,7 +147,7 @@ header a:hover {
       <div class="job">
         <h4>Web Developer <span class="company">/ Minnesota Public Radio, Saint Paul, MN</span></h4>
         <h5>August 2018 - Present</h5>
-        <p>Maintain American Public Media's old web applications and build new ones, using everything from server side Node and Rails to front end React and SCSS. Built swaths of our reusable React component libraries and pushed for them to be open sourced and published on NPM. Became the "crash test dummy" of the team, vetting new tools like Next.js and React Native and architecting initial solutions with them.</p>
+        <p>Maintained American Public Media's old web applications and built new ones, using everything from server side Node and Rails to front end React and SCSS. Built large swaths of our reusable React component libraries and pushed for them to be open source and published on NPM. Vetted new tools like Next.js and React Native and architected initial solutions with them.</p>
         <h6 class="key">Key Accomplishments</h6>
         <ul>
           <li>Reworked APM Reports to pass all of Google's AMP rules so they would more frequently be the top result for the stories they broke. The day Curtis Flowers' conviction was overturned APM Reports had a record 175K pageviews.</li>

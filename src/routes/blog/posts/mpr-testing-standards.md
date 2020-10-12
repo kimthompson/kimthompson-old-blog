@@ -214,7 +214,7 @@ test('returns winner', () => {
 
 Fun fact: I watched his first testing course and didn’t know this existed until Philip told me about it like two months ago, and I was skeptical that it would just magically replace the imported function with my new one.
 
-[I am boo boo the fool](https://i.kym-cdn.com/entries/icons/facebook/000/022/477/5ebacf52cd3221a7487b805d0954b422.jpg)
+![I am boo boo the fool](https://i.kym-cdn.com/entries/icons/facebook/000/022/477/5ebacf52cd3221a7487b805d0954b422.jpg)
 
 If you want something to be mocked in a lot of tests, you can even create a `__mocks__` directory right next to your `__tests__` directory for that area and import it from there. In this case, in `__mocks__/utils.js`:
 

@@ -109,10 +109,10 @@ p {
 
   .sidebar {
     flex-direction: row;
+    flex-wrap: wrap;
     width: 100%;
     border: none;
     padding: 10px 10px 10px 25px;
-    margin-bottom: 15px;
   }
 
   .title {
@@ -130,15 +130,26 @@ p {
     margin: 0;
   }
 }
+
+@media(max-width: 600px) {
+  figure {
+    min-width: 100px;
+    order: -1;
+  }
+
+  .center {
+    width: 100%;
+  }
+}
 </style>
 
 <aside class="sidebar shadow">
-    <figure>
-      <a href="/">
-        <img alt='Me, being grumpy and getting caffeine' src='grump.png'>
-      </a>
-      <figcaption>Art by <a href="https://www.instagram.com/lady_red_art/" target="_blank">@lady_red_art</a></figcaption>
-    </figure>
+  <figure>
+    <a href="/">
+      <img alt='Me, being grumpy and getting caffeine' src='grump.png'>
+    </a>
+    <figcaption>Art by <a href="https://www.instagram.com/lady_red_art/" target="_blank">@lady_red_art</a></figcaption>
+  </figure>
 
   <div class="center">
     <div class="title">

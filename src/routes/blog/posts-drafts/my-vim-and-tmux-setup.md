@@ -2,4 +2,4 @@ I've grown to love it, and in case anyone's interested I thought I'd share. I'm 
 
 Gatekeeping because of the tools you use is stupid though, and I have zero patience for it.
 
-It works on Windows (finally)!
+It works on Windows (finally)! Specifically walk through and emphasize the windows setup.

@@ -11,10 +11,18 @@ export let posts;
 </script>
 
 <style>
+h1 {
+  margin: 1em 0;
+}
+
 h2,
 .post-item-footer {
   font-family: 'Special Elite', serif;
   font-weight: 700;
+}
+
+.container {
+  padding-left: 25px;
 }
 
 .post-item-date {

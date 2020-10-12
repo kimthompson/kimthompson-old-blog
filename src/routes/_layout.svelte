@@ -14,13 +14,14 @@ export let segment;
 
 .layout_main {
   display: flex;
+  background-color: var(--off-white-color);
+  padding: 1em 0;
 }
 
 main {
   flex: 1;
   position: relative;
   margin: 0 auto;
-  background-color: var(--off-white-color);
   box-sizing: border-box;
   width: 100%;
   display: flex;

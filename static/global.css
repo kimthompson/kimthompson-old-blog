@@ -5,6 +5,10 @@
   --cultured-color: #f0f0f0;
   --sage-color: #d2cca1;
   --liberty-color: #485695;
+  --kobe-color: #942911;
+  --dark-cyan-color: #0f8d8d;
+  --carrot-orange-color: #ed9a29;
+  --light-steel-blue-color: #b4c5e4;
 
   --white-color: #ffffff;
   --off-white-color: var(--cultured-color);
@@ -63,7 +67,7 @@ h6 {
 }
 
 p, ul, ol {
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 1.75em;
   margin: 1.2em 0;
 }
@@ -189,6 +193,18 @@ td {
 .content h1 {
   font-size: 3em;
   margin: 1em 0;
+}
+
+.shadow {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 3px 6px rgba(0,0,0,0.22);
+}
+
+.file p {
+  font-size: 1.4em;
+}
+
+.file_me p {
+  font-style: italic;
 }
 
 @media (max-width: 1020px) {

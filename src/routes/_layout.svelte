@@ -20,7 +20,7 @@ main {
   flex: 1;
   position: relative;
   margin: 0 auto;
-  background-color: white;
+  background-color: var(--off-white-color);
   box-sizing: border-box;
   width: 100%;
   display: flex;

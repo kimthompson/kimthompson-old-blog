@@ -79,6 +79,7 @@ p {
   width: 300px;
   text-align: center;
   background-color: var(--sidebar-color);
+  z-index: 1000;
 }
 
 .nav {
@@ -131,7 +132,7 @@ p {
 }
 </style>
 
-<aside class="sidebar">
+<aside class="sidebar shadow">
     <figure>
       <a href="/">
         <img alt='Me, being grumpy and getting caffeine' src='grump.png'>

@@ -49,7 +49,6 @@ header a:hover {
 
 .main {
   padding-right: 15px;
-  min-width: 800px;
 }
 
 .company {
@@ -107,6 +106,15 @@ header a:hover {
 
   .sidebar {
     text-align: left;
+  }
+
+  header {
+    flex-direction: column;
+  }
+
+  .contact {
+    text-align: left;
+    align-items: flex-start;
   }
 }
 </style>

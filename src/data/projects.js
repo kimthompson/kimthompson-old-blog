@@ -11,7 +11,7 @@ import {
     faBroadcastTower,
     faGuitar
 } from '@fortawesome/free-solid-svg-icons';
-import { faFileImage, faComment } from '@fortawesome/free-regular-svg-icons';
+import { faFileImage } from '@fortawesome/free-regular-svg-icons';
 
 const projects = [
   {

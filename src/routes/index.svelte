@@ -35,6 +35,10 @@ h2,
 hr {
   margin: 60px auto;
 }
+
+.container {
+  padding-bottom: 1em;
+}
 </style>
 
 <svelte:head>

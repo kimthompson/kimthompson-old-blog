@@ -30,7 +30,7 @@
   header p {
     color: #aaa;
     text-transform: uppercase;
-    font-family: 'Special Elite', serif;
+    font-family: var(--main-header-font);
     font-weight: 600;
   }
 

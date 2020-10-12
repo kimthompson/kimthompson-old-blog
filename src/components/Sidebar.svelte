@@ -154,7 +154,6 @@ p {
   <div class="center">
     <div class="title">
       <h1>Kim Thompson</h1>
-      <p>Web Developer</p>
     </div>
 
     <div class="social">

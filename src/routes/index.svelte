@@ -17,7 +17,7 @@ h1 {
 
 h2,
 .post-item-footer {
-  font-family: 'Special Elite', serif;
+  font-family: var(--main-header-font);
   font-weight: 700;
 }
 

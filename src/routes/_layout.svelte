@@ -15,7 +15,6 @@ export let segment;
 .layout_main {
   display: flex;
   background-color: var(--off-white-color);
-  padding: 1em 0;
 }
 
 main {
@@ -32,7 +31,7 @@ footer {
   color: var(--off-white-color);
   background-color: var(--footer-color);
   font-size: 1em;
-  font-family: 'Special Elite', serif;
+  font-family: var(--main-header-font);
   padding: 1em 2em;
   text-align: center;
   width: 100%;
@@ -41,6 +40,7 @@ footer {
 @media(max-width: 1020px) {
   .layout_main {
     flex-direction: column;
+    padding: 1em 0;
   }
 }
 </style>

@@ -20,8 +20,7 @@ main {
   flex: 1;
   position: relative;
   margin: 0 auto;
-  background-color: white;
-  padding: 1em 2em;
+  background-color: var(--off-white-color);
   box-sizing: border-box;
   width: 100%;
   display: flex;
@@ -29,8 +28,8 @@ main {
 }
 
 footer {
-  color: #aaa;
-  background-color: #090809;
+  color: var(--off-white-color);
+  background-color: var(--footer-color);
   font-size: 1em;
   font-family: 'Special Elite', serif;
   padding: 1em 2em;

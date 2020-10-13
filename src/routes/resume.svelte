@@ -120,7 +120,7 @@ header a:hover {
 </style>
 
 <svelte:head>
-  <title>Resume</title>
+  <title>Resume - Kim Thompson</title>
 </svelte:head>
 
 <div>

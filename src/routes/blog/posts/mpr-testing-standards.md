@@ -3,17 +3,15 @@ title: Testing @ MPR
 date: 2020-10-12T22:00:00.000Z
 ---
 
-I wrote this for my team earlier this year to ensure that we were all on the same page regarding testing. Nobody on my team really had strong opinions other than 1) we should be doing more and 2) they should all follow a similar approach. In light of that, I watched Kent Dodd's two FEM courses, read all his testing blog posts and synthesized what I learned into this lightweight guide.
+I wrote this for my team earlier this year to ensure that we were all on the same page regarding testing. Nobody on my team (myself included) really had strong opinions other than 1) we should be doing more of it and 2) these tests should be written in the same way everywhere. In light of that, I watched Kent Dodd's two FEM courses, read all his testing blog posts and synthesized what I learned into this lightweight guide.
 
 <!-- more -->
 
-# Testing @ MPR
-
 ## A Distillation and Bastardization of the Scattered Teachings of Kent Dodds
 
-I wrote this for my team earlier this year to ensure that we were all on the same page regarding testing. Nobody on my team really had strong opinions other than 1) we should be doing more and 2) they should all follow a similar approach. In light of that, I watched Kent Dodd's two FEM courses, read all his testing blog posts and synthesized what I learned into this lightweight guide.
+I wrote this for my team earlier this year to ensure that we were all on the same page regarding testing. Nobody on my team (myself included) really had strong opinions other than 1) we should be doing more of it and 2) these tests should be written in the same way everywhere. In light of that, I watched Kent Dodd's two FEM courses, read all his testing blog posts and synthesized what I learned into this lightweight guide.
 
-The goal of this rulebook is to set out in writing what it means for one of our libraries to be well tested. This is what we have decided we need to feel confident that our code works and we won't push out any breaking changes.
+The goal of this rulebook is to set out in writing what it means for one of MPR's libraries to be well tested. This is what we have decided we need to feel confident that our code works and we won't push out any breaking changes.
 
 ### The Testing Trophy
 

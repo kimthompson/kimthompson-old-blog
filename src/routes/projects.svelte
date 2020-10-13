@@ -70,7 +70,7 @@
 </style>
 
 <svelte:head>
-  <title>Projects</title>
+  <title>Projects - Kim Thompson</title>
 </svelte:head>
 
 <div>

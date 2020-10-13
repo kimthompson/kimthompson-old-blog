@@ -18,6 +18,7 @@
     display: block;
     position: relative;
     max-width: 8em;
+    transition: .3s;
   }
 
   a:not(.selected) {

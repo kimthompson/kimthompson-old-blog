@@ -155,7 +155,11 @@ header a:hover {
       <div class="job">
         <h4>Software Engineer/Consultant <span class="company">/ Daugherty Business Solutions, Bloomington, MN</span></h4>
         <h5>November 2020 - Present</h5>
-        <p>I use my React knowledge to help on a variety of projects for a variety of clients.</p>
+        <p>I use my deep React knowledge and the other bits of knowledge I've picked up to help a variety of clients with their tricky projects.</p>
+        <h6 class="key">Key Accomplishments</h6>
+        <ul>
+          <li><b>Express Scripts</b>, <em>Nov. 2020 - Present</em> - Worked on a large application built with React, Redux and Java Spring Boot.</li>
+        </ul>
       </div>
       <div class="job">
         <h4>Web Developer <span class="company">/ Minnesota Public Radio, Saint Paul, MN</span></h4>
@@ -197,7 +201,7 @@ header a:hover {
     <aside class="sidebar">
       <div class="tech">
         <h3>Technologies</h3>
-        <p>JavaScript, React, React Native, Node, Next.js, Svelte, Ruby on Rails, Vue, HTML, CSS, SCSS, Swift, Objective-C, C#, Xamarin, Python, Java, SQL</p>
+        <p>JavaScript, React, React Native, Node, Next.js, Svelte, Java, Spring, SQL, Ruby on Rails, Vue, HTML, CSS, SCSS, Swift, Objective-C, C#, Xamarin, Python</p>
       </div>
       <div class="education">
         <h3>Education</h3>

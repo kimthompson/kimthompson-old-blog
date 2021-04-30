@@ -207,7 +207,7 @@ header a:hover {
         <h3>Education</h3>
         <h5>University of Minnesota - Twin Cities</h5>
         <p>Computer Science B.A & Journalism B.A.</p>
-        <h6 class="gpa">September 2011 - May 2015, GPA 3.3</h6>
+        <h6 class="gpa">September 2011 - May 2015</h6>
       </div>
     </aside>
   </div>

@@ -135,8 +135,8 @@ header a:hover {
       <a href="+1-952-215-7255">
         952-215-7255
       </a>
-      <a href="mailto:kimthompson@hey.com">
-        kimthompson@hey.com
+      <a href="mailto:kim.thompson.dev@protonmail.com">
+        kim.thompson.dev@protonmail.com
       </a>
       <a href="https://kimthompson.me">
         kimthompson.me
@@ -153,8 +153,13 @@ header a:hover {
     <section class="main">
       <h3>Experience</h3>
       <div class="job">
+        <h4>Software Engineer/Consultant <span class="company">/ Daugherty Business Solutions, Bloomington, MN</span></h4>
+        <h5>November 2020 - Present</h5>
+        <p>I use my React knowledge to help on a variety of projects for a variety of clients.</p>
+      </div>
+      <div class="job">
         <h4>Web Developer <span class="company">/ Minnesota Public Radio, Saint Paul, MN</span></h4>
-        <h5>August 2018 - Present</h5>
+        <h5>August 2018 - November 2020</h5>
         <p>Maintained American Public Media's old web applications and built new ones, using everything from server side Node and Rails to front end React and SCSS. Built large swaths of our reusable React component libraries and pushed for them to be open source and published on NPM. Vetted new tools like Next.js and React Native and architected initial solutions with them.</p>
         <h6 class="key">Key Accomplishments</h6>
         <ul>

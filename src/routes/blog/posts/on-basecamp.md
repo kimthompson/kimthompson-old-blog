@@ -6,9 +6,9 @@ date: 2021-04-30T21:51:00.000Z
 I cancelled my Hey account. Here's why.
 
 <!-- more -->
-Last year, I finally made the leap away from Gmail. I snagged kimthompson@hey.com, and was so excited to have such a clean, professional email. The interface and organization features were very cool, and it really helped me get organized. Unfortunately, [all of this](https://www.theverge.com/2021/4/27/22406673/basecamp-political-speech-policy-controversy) has forced my hand. And on this, a [Friday](https://twitter.com/YakuzaFriday/status/1388136689391087620?s=20) and [Goblinization Day](https://www.joeydevilla.com/2021/04/30/its-april-30-2021-happy-goblinization-day/).
+Last year, I finally made the leap away from Gmail. I snagged kimthompson@hey.com, and was so excited to have such a clean, professional email. The interface was very cool, and it really helped me tame my inbox. Unfortunately, [all of this nonsense](https://www.theverge.com/2021/4/27/22406673/basecamp-political-speech-policy-controversy) has forced my hand. And on this, the day of [Goblinization](https://www.joeydevilla.com/2021/04/30/its-april-30-2021-happy-goblinization-day/).
 
-I closed down my Hey account today in favor of a [ProtonMail](https://protonmail.com/) account. When they asked why I was leaving I provided the following feedback.
+I closed my Hey account today in favor of a [ProtonMail](https://protonmail.com/) account. When they asked why I was leaving I provided the following feedback.
 
 > To the customer service rep who will end up fielding this message, I'm sorry. What Basecamp has decided to do is not your fault, and as an employee you're going to bear the brunt of the effects of their terrible decision.
 >

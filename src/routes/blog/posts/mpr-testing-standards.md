@@ -7,11 +7,16 @@ I wrote this for my team earlier this year to ensure that we were all on the sam
 
 <!-- more -->
 
-## A Distillation and Bastardization of the Scattered Teachings of Kent Dodds
+## A Distillation of the Scattered Teachings of Kent Dodds
 
-I wrote this for my team earlier this year to ensure that we were all on the same page regarding testing. Nobody on my team (myself included) really had strong opinions other than 1) we should be doing more of it and 2) these tests should be written in the same way everywhere. In light of that, I watched Kent Dodd's two FEM courses, read all his testing blog posts and synthesized what I learned into this lightweight guide.
+I wrote this for my team earlier this year to ensure that we were all on the same page regarding testing. Nobody on my team (myself included) really had strong opinions other than
 
-The goal of this rulebook is to set out in writing what it means for one of MPR's libraries to be well tested. This is what we have decided we need to feel confident that our code works and we won't push out any breaking changes.
+  1. We should be doing more of it
+  2. They should be written in the same way everywhere
+
+In light of that, I watched Kent Dodd's two [Frontend Masters](https://frontendmasters.com/) courses, read all his testing blog posts and synthesized what I learned into this lightweight guide.
+
+The goal of this rulebook is to set out in writing what it means for one of MPR's libraries to be well tested. This is what we have decided we need to feel confident that our code works and we aren't pushing out any breaking changes.
 
 ### The Testing Trophy
 

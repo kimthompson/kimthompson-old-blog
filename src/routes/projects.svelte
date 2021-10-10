@@ -42,7 +42,7 @@
     justify-content: space-between;
     font-size: 1.3em;
     margin: 0;
-    background-color: var(--main-theme-color);
+    background-color: var(--sweater-color);
   }
 
   .file_icon {
@@ -56,7 +56,7 @@
     border-radius: 10px;
     flex-grow: 3;
     transition: 0.3s;
-    padding-left: 15px;
+    margin-left: 15px;
   }
 
   .file_icon:hover {
@@ -66,6 +66,14 @@
   @media(max-width: 850px) {
     .file {
       flex-direction: column;
+    }
+
+    .file_icon {
+      order: 1;
+    }
+
+    .file_text {
+      order: 2;
     }
   }
 </style>
@@ -79,7 +87,7 @@
 
   {#each projects as project, index}
     <div class="shadow">
-      <label style={`background-color: var(${project.color})`} class="file_tab shadow">
+      <label class="file_tab shadow">
         <input type="checkbox" bind:checked={project.isSelected}>
         <h2>
           {project.name}
@@ -94,7 +102,7 @@
           </div>
           <a href={project.link !== null ? project.link : ''}>
             {#if project.icon !== null}
-              <div style={`background-color: var(${project.color})`} class="file_icon">
+              <div class="file_icon">
                 <Icon data={project.icon} scale="7" />
               </div>
             {/if}

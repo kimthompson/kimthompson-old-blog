@@ -9,33 +9,54 @@ import {
     faDatabase,
     faVoteYea,
     faBroadcastTower,
-		faPrescriptionBottle,
-		faMemory,
+    faPrescriptionBottle,
+    faMemory,
     faGuitar
 } from '@fortawesome/free-solid-svg-icons';
 import { faFileImage } from '@fortawesome/free-regular-svg-icons';
 
 const projects = [
-	// {
-	// 	name: 'Internal App for Best Buy',
-	// 	description: 'I joined a relatively new team on a project that was just starting to ramp up and prepare for comapny-wide use. This app will be used by business owners to lay out web pages for events and promotions and the like, without needing to know how to code or ask developers to build out those features.',
-	// 	myRole: 'I was specifically hired to help sort out the frontend code and mentor a lot of the less senior developers, which has been very exciting! I got our e2e tests up and running again, switching from Cypress to Playwright, reworked the documentation and built process of our component libraries, and am currently working on improving our frontend app\'s performace.',
-	// 	icon: faMemory,
-	// 	link: null,
-	// 	isWip: false,
-	// 	isSelected: false,
-	// 	color: '--liberty-color'
+  // {
+  //   name: 'Internal App for Best Buy',
+  //   description: 'I joined a relatively new team on a project that was just starting to ramp up and prepare for comapny-wide use. This app will be used by business owners to lay out web pages for events and promotions and the like, without needing to know how to code or ask developers to build out those features.',
+  //   myRole: 'I was specifically hired to help sort out the frontend code and mentor a lot of the less senior developers, which has been very exciting! I got our e2e tests up and running again, switching from Cypress to Playwright, reworked the documentation and built process of our component libraries, and am currently working on improving our frontend app\'s performace.',
+  //   icon: faMemory,
+  //   link: null,
+  //   isWip: false,
+  //   isSelected: false,
+  //   color: '--liberty-color'
   // },
-	// {
-	// 	name: 'Internal App for Cigna',
-	// 	description: 'I joined a team finishing up a sprawling React and Redux app meant to replace their old drug pricing system, which ran on the largest Excel spreadsheet I\'ve ever seen.'
-	// 	myRole: 'I relearned Java, learned Spring, and learned Redux so I could help with the final stage of this project. The team mostly worked in "swarms", and the vibe was pretty intense. I did my best, but when the project came to a lull and they were ready to offload some developers, I volunteered.',
-	// 	icon: faPrescriptionBottle,
-	// 	link: null,
-	// 	isWip: false,
-	// 	isSelected: false,
-	// 	color: '--liberty-color'
+  // {
+  //   name: 'Internal App for Cigna',
+  //   description: 'I joined a team finishing up a sprawling React and Redux app meant to replace their old drug pricing system, which ran on the largest Excel spreadsheet I\'ve ever seen.'
+  //   myRole: 'I relearned Java, learned Spring, and learned Redux so I could help with the final stage of this project. The team mostly worked in "swarms", and the vibe was pretty intense. I did my best, but when the project came to a lull and they were ready to offload some developers, I volunteered.',
+  //   icon: faPrescriptionBottle,
+  //   link: null,
+  //   isWip: false,
+  //   isSelected: false,
+  //   color: '--liberty-color'
   // },
+  {
+    name: 'Internal App for Best Buy',
+    description: 'I joined a relatively new team on a project that was just starting to ramp up and prepare for comapny-wide use. This app will be used by business owners to lay out web pages for events and promotions and the like, without needing to know how to code or ask developers to build out those features.',
+    myRole: 'I created the proof of concept, planned out v1, and built out most of the essential features, showing that apps created in React Native with Expo could do all of the things we would need an audio-heavy web app to do. I got everyone on board and excited about it and trained in my team, but I ended up leaving the company before it launched.', 
+    icon: faMemory,
+    link: null,
+    isWip: false,
+    isSelected: false,
+    color: '--liberty-color'
+  },
+  {
+    name: 'Internal App for Cigna',
+    description: 'I joined a team finishing up a sprawling React and Redux app meant to replace their old drug pricing system, which ran on the largest Excel spreadsheet I\'ve ever seen.',
+    myRole: 'I created the proof of concept, planned out v1, and built out most of the essential features, showing that apps created in React Native with Expo could do all of the things we would need an audio-heavy web app to do. I got everyone on board and excited about it and trained in my team, but I ended up leaving the company before it launched.', 
+    icon: faPrescriptionBottle,
+    link: null,
+    isWip: false,
+    isSelected: false,
+    color: '--liberty-color'
+  },
+  {
     name: 'YourClassical',
     description: 'My last project at MPR was to be developed for Next.js, iOS and Android at the same time using React Native. This was the first projects at MPR to use TypeScript, which made our code more rigorous.',
     myRole: 'I created the proof of concept, planned out v1, and built out most of the essential features, showing that apps created in React Native with Expo could do all of the things we would need an audio-heavy web app to do. I got everyone on board and excited about it and trained in my team, but I ended up leaving the company before it launched.', 
@@ -53,7 +74,7 @@ const projects = [
     link: 'https://npmjs.com/package/@apmg/amat-native',
     isWip: true,
     isSelected: false,
-    color: '--kobe-color'
+    color: '--liberty-color'
   },
   {
     name: "Kids' Podcasts Site Engine",
@@ -63,7 +84,7 @@ const projects = [
     link: 'https://julieslibraryshow.org',
     isWip: false,
     isSelected: false,
-    color: '--dark-cyan-color'
+    color: '--liberty-color'
   },
   {
     name: 'Podcasts Site Engine',
@@ -73,7 +94,7 @@ const projects = [
     link: 'https://ttfa.org',
     isWip: false,
     isSelected: false,
-    color: '--carrot-orange-color'
+    color: '--liberty-color'
   },
   {
     name: "MPR's Testing Standards",
@@ -83,10 +104,10 @@ const projects = [
     link: '/blog/mpr-testing-standards',
     isWip: false,
     isSelected: false,
-    color: '--light-steel-blue-color'
+    color: '--liberty-color'
   },
   {
-    name: "Titan — Library of React Components",
+    name: "Titan — React Component Libary",
     description: 'For various things MPR uses over all their sites &mdash; teasers, hero banners, and so on &mdash; we decided to build them once and provide a number of customization options.',
     myRole: 'I was pretty involved in the initial organization of Titan, which was reverse engineered from a number of components we made for Live From Here that we thought would be more generally useful. About 18 months later, I successfully lobbied for time to write and/or reorganize tests and documentation for these components so that v1.0.0 could published.',
     icon: faCubes,
@@ -96,14 +117,14 @@ const projects = [
     color: '--liberty-color'
   },
   {
-    name: 'Mimas — Easy Image Processing',
+    name: 'Mimas — Image Processing',
     description: "A React component that takes image data from our CMS and figures out which aspect ratio(s) and size(s) to deliver in a given situation. This libary, like Titan, is open source, though I don't see it having much utility outside of our CMS.",
     myRole: 'I created the first version of Mimas. About 18 months later, I successfully lobbied for time to write/reorganize tests and documentation for this library so that v1.0.0 could be published.',
     icon: faFileImage,
     link: 'https://npmjs.com/package/@apmg/mimas',
     isWip: false,
     isSelected: false,
-    color: '--kobe-color'
+    color: '--liberty-color'
   },
   {
     name: 'MPR.org → GraphQL API',
@@ -113,7 +134,7 @@ const projects = [
     link: 'https://mpr.org',
     isWip: false,
     isSelected: false,
-    color: '--dark-cyan-color'
+    color: '--liberty-color'
   },
   {
     name: 'Elections',
@@ -123,7 +144,7 @@ const projects = [
     link: 'https://elections.mpr.org/2018-11-06/us/senate',
     isWip: false,
     isSelected: false,
-    color: '--carrot-orange-color'
+    color: '--liberty-color'
   },
   {
     name: 'MPR News',
@@ -133,7 +154,7 @@ const projects = [
     link: 'https://mprnews.org',
     isWip: false,
     isSelected: false,
-    color: '--light-steel-blue-color'
+    color: '--liberty-color'
   },
   {
     name: 'Live From Here',
@@ -153,7 +174,7 @@ const projects = [
     link: 'https://classical24.org',
     isWip: false,
     isSelected: false,
-    color: '--kobe-color'
+    color: '--liberty-color'
   },
   {
     name: "😭 NDAs 😭",
@@ -163,7 +184,7 @@ const projects = [
     link: 'https://en.wikipedia.org/wiki/Non-disclosure-agreement',
     isWip: false,
     isSelected: false,
-    color: '--dark-cyan-color'
+    color: '--liberty-color'
   }
 ]
 

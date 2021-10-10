@@ -33,12 +33,23 @@ header a:hover {
   color: var(--main-theme-color);
 }
 
+.header {
+  display: flex;
+}
+
 .contact {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  justify-content: center;
-  min-width: 370px;
+  justify-content: space-between;
+  text-align: right;
+  min-width: 400px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.contact a {
+  color: var(--main-theme-color);
 }
 
 .body {
@@ -111,11 +122,6 @@ header a:hover {
   header {
     flex-direction: column;
   }
-
-  .contact {
-    text-align: left;
-    align-items: flex-start;
-  }
 }
 </style>
 
@@ -125,29 +131,41 @@ header a:hover {
 
 <div>
   <header>
-    <div>
-      <h1>Kim Thompson</h1>
-      <h2>Software Developer</h2>
-      <p>Software developer with over 5 years of experience creating applications for web, mobile and Windows. A jack-of-all-trades who is passionate about pushing the web forward and making it better for everyone.</p>
+    <div class="header">
+      <div class="title">
+        <h1>Kim Thompson</h1>
+        <h2>Software Developer</h2>
+      </div>
+      <ul class="contact">
+        <span>135 Battle Creek Place, Saint Paul, MN 55119</span>
+        <span>
+          <a href="+1-952-215-7255">
+            952-215-7255
+          </a>
+        </span>
+        <span>
+          <a href="mailto:kim.thompson.dev@protonmail.com">
+            kim.thompson.dev@protonmail.com
+          </a>
+        </span>
+        <span>
+          <a href="https://kimthompson.me">
+            kimthompson.me
+          </a>
+        </span>
+        <span>
+          <a href="https://github.com/kimthompson">
+            github.com/kimthompson
+          </a>
+        </span>
+        <span>
+          <a href="https://linkedin.com/in/kimberlyannthompson">
+            linkedin.com/in/kimberlyannthompson
+          </a>
+        </span>
+      </ul>
     </div>
-    <div class="contact">
-      <span>135 Battle Creek Place, Saint Paul, MN 55119</span>
-      <a href="+1-952-215-7255">
-        952-215-7255
-      </a>
-      <a href="mailto:kim.thompson.dev@protonmail.com">
-        kim.thompson.dev@protonmail.com
-      </a>
-      <a href="https://kimthompson.me">
-        kimthompson.me
-      </a>
-      <a href="https://github.com/kimthompson">
-        github.com/kimthompson
-      </a>
-      <a href="https://linkedin.com/in/kimberlyannthompson">
-        linkedin.com/in/kimberlyannthompson
-      </a>
-    </div>
+    <p>Software Engineer with over six years of experience creating applications for web, mobile, and Windows. A full-stack developer who aims to help push the internet forward and make it better for everyone. Deeply knowledgeable about the intricacies of JavaScript with a proven ability to learn other tools and languages quickly. Accustomed to vetting new technologies and creating proofs of concept. Excellent at communicating with folks at all levels of technical knowledge and passionate about mentoring.</p>
   </header>
   <div class="body">
     <section class="main">
@@ -155,10 +173,11 @@ header a:hover {
       <div class="job">
         <h4>Software Engineer/Consultant <span class="company">/ Daugherty Business Solutions, Bloomington, MN</span></h4>
         <h5>November 2020 - Present</h5>
-        <p>I use my deep React knowledge and the other bits of knowledge I've picked up to help a variety of clients with their tricky projects.</p>
+        <p>I use my deep React knowledge and the other bits of knowledge I've picked up to help a variety of clients with their tricky projects. Design and implement software systems based on functional specifications at the application, package, class, and method level. Review source code completed by peers and junior developers to ensure adherence to design specs, style guidelines, and best practices. Integrate packages or code applications with attention to integration, maintainability, reusability, standards, structure, and efficiency. Participate in Agile ceremonies and other client visible business meetings as part of a team. Perform regression test planning and execution each sprint. Work with operations groups to ensure applications are successfully migrated to production and provide application maintenance and support as required. Leverage tools and methods to understand root cause and recommend options for correction. Provide tutoring for Daugherty University Associate Consultants as needed via Microsoft Teams.</p>
         <h6 class="key">Key Accomplishments</h6>
         <ul>
-          <li><b>Express Scripts</b>, <em>Nov. 2020 - Present</em> - Worked on a large application built with React, Redux and Java Spring Boot.</li>
+          <li><b>Best Buy</b>, <em>Jun. 2021 - Present</em> - React, Redux, Groovy, Spring Boot, JSS</li>
+          <li><b>Express Scripts</b>, <em>Nov. 2020 - Jun. 2021</em> - React, Redux, Java, Spring Boot, SCSS</li>
         </ul>
       </div>
       <div class="job">

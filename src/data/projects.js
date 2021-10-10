@@ -9,18 +9,39 @@ import {
     faDatabase,
     faVoteYea,
     faBroadcastTower,
+		faPrescriptionBottle,
+		faMemory,
     faGuitar
 } from '@fortawesome/free-solid-svg-icons';
 import { faFileImage } from '@fortawesome/free-regular-svg-icons';
 
 const projects = [
-  {
-    name: 'Two React Native Apps',
-    description: 'Our next two projects will be developed for Next.js, iOS and Android at the same time using React Native. These are the first projects at MPR to use TypeScript, which has made our code more rigorous.',
-    myRole: 'I created the proof of concept, showing that apps created in React Native with Expo could do all of the things we would need an audio-heavy web app to do. I got everyone on board and excited about it.', 
+	// {
+	// 	name: 'Internal App for Best Buy',
+	// 	description: 'I joined a relatively new team on a project that was just starting to ramp up and prepare for comapny-wide use. This app will be used by business owners to lay out web pages for events and promotions and the like, without needing to know how to code or ask developers to build out those features.',
+	// 	myRole: 'I was specifically hired to help sort out the frontend code and mentor a lot of the less senior developers, which has been very exciting! I got our e2e tests up and running again, switching from Cypress to Playwright, reworked the documentation and built process of our component libraries, and am currently working on improving our frontend app\'s performace.',
+	// 	icon: faMemory,
+	// 	link: null,
+	// 	isWip: false,
+	// 	isSelected: false,
+	// 	color: '--liberty-color'
+  // },
+	// {
+	// 	name: 'Internal App for Cigna',
+	// 	description: 'I joined a team finishing up a sprawling React and Redux app meant to replace their old drug pricing system, which ran on the largest Excel spreadsheet I\'ve ever seen.'
+	// 	myRole: 'I relearned Java, learned Spring, and learned Redux so I could help with the final stage of this project. The team mostly worked in "swarms", and the vibe was pretty intense. I did my best, but when the project came to a lull and they were ready to offload some developers, I volunteered.',
+	// 	icon: faPrescriptionBottle,
+	// 	link: null,
+	// 	isWip: false,
+	// 	isSelected: false,
+	// 	color: '--liberty-color'
+  // },
+    name: 'YourClassical',
+    description: 'My last project at MPR was to be developed for Next.js, iOS and Android at the same time using React Native. This was the first projects at MPR to use TypeScript, which made our code more rigorous.',
+    myRole: 'I created the proof of concept, planned out v1, and built out most of the essential features, showing that apps created in React Native with Expo could do all of the things we would need an audio-heavy web app to do. I got everyone on board and excited about it and trained in my team, but I ended up leaving the company before it launched.', 
     icon: faMobileAlt,
     link: null,
-    isWip: true,
+    isWip: false,
     isSelected: false,
     color: '--liberty-color'
   },

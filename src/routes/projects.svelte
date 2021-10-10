@@ -56,6 +56,7 @@
     border-radius: 10px;
     flex-grow: 3;
     transition: 0.3s;
+    padding-left: 15px;
   }
 
   .file_icon:hover {
@@ -78,7 +79,7 @@
 
   {#each projects as project, index}
     <div class="shadow">
-      <label class="file_tab shadow">
+      <label style={`background-color: var(${project.color})`} class="file_tab shadow">
         <input type="checkbox" bind:checked={project.isSelected}>
         <h2>
           {project.name}
@@ -93,7 +94,7 @@
           </div>
           <a href={project.link !== null ? project.link : ''}>
             {#if project.icon !== null}
-              <div class="file_icon">
+              <div style={`background-color: var(${project.color})`} class="file_icon">
                 <Icon data={project.icon} scale="7" />
               </div>
             {/if}

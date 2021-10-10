@@ -43,6 +43,13 @@ footer {
     padding: 0 0 1em 0;
   }
 }
+
+@media print { 
+	 footer { display: none !important; } 
+	.layout_main {
+		background-color: white;
+	}
+}
 </style>
 
 <div class="layout">

@@ -137,6 +137,11 @@ h1 {
     width: 100%;
   }
 }
+
+@media print { 
+ /* All your print styles go here */
+ .sidebar { display: none !important; } 
+}
 </style>
 
 <aside class="sidebar shadow">
